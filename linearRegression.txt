@@ -1,0 +1,26 @@
+first we understand the data and observe the patterrns for prediction
+we find a line that predicts an output from an input
+suppose the equation is y=mx+c, we try to find the values of m and c 
+through a series of guesses, we get the actual values and the predict the correct output
+for this we need mean squared error 
+we run till the mse is 0
+here m=weight, c= bias(intercept)
+
+
+#gradient descent
+gradient descent tells us which direction to change the weight input
+high point = mlarge error
+low point= small error
+goal is to reach the lowest point 
+gradient tells us how the loss changes as paframeter changes 
+new parameter = old parameter - alpha*gradient
+where alpha represents the learning  rate
+old parameter-> current weight
+gardient->how loss changes 
+learning rate-> step
+we get two gradients upon differentiation, one how the loss changes with weight and one with bias
+
+
+
+#series vs dataframes(pandas)
+series:column  dataframe: spreadsheet 
